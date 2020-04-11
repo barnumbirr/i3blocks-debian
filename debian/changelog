@@ -1,0 +1,63 @@
+i3blocks (1.5-1) UNRELEASED; urgency=medium
+
+  * Point Vcs-* fields to salsa.d.o
+  * Bump debhelper compat to 11
+  * Bump Standards-Version to 4.1.4
+  * New upstream release
+  * Remove patches: no longer needed
+  * Update manpages and docs
+  * Remove unneeded B-D and copyrights, i3blocks doesn't ship scripts anymore
+
+ -- Jason Pleau <jason@jpleau.ca>  Sat, 14 Sep 2019 19:19:33 -0400
+
+i3blocks (1.4-4) unstable; urgency=medium
+
+  * Add a patch to handle the output of recent mpstat (>= 11.6.0):
+    cpu_usage.patch. (Closes: #872794)
+  * Bump Standards-Version to 4.1.0, no changes were needed.
+
+ -- Jason Pleau <jason@jpleau.ca>  Mon, 28 Aug 2017 14:59:31 -0400
+
+i3blocks (1.4-3) unstable; urgency=medium
+
+  * Add a patch: makefile_reproducible.patch: make the build reproducible
+    (Thanks to Mattia Rizzolo for the patch !)
+
+ -- Jason Pleau <jason@jpleau.ca>  Sat, 23 Jul 2016 00:39:39 -0400
+
+i3blocks (1.4-2) unstable; urgency=medium
+
+  * Add a patch to use pandoc instead of ronn to generate manpage
+    See #796497: manpage_use_pandoc.patch
+  * Bump Standards-Versions to 3.9.8, no changes were required
+  * Update Vcs-* fields to point to the https browsable URLs
+
+ -- Jason Pleau <jason@jpleau.ca>  Sat, 02 Jul 2016 10:12:37 -0400
+
+i3blocks (1.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * Fix d/watch file so it reports accurate versions
+  * d/control: set Architecture to linux-any, kfreebsd-any. It does not build
+    on GNU/Hurd, as it makes use of a lot of macros that are undefined.
+  * Use the github tagged release tarball (as it contains non-generated manual
+    pages)
+  * Add ruby-ronn as build-dependency (to generate the manual page)
+  * Fix broken Recommends fields on some architectures:
+    + acpi is now: [amd64 i386 mipsel]
+    + alsa-utils and sysstat are now: [linux-any]
+
+ -- Jason Pleau <jason@jpleau.ca>  Mon, 06 Jul 2015 20:02:42 -0400
+
+i3blocks (1.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop all patches since they were merged upstream
+
+ -- Jason Pleau <jason@jpleau.ca>  Wed, 22 Oct 2014 17:29:12 -0400
+
+i3blocks (1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #762517)
+
+ -- Jason Pleau <jason@jpleau.ca>  Sat, 04 Oct 2014 18:17:31 -0400

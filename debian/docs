@@ -1,0 +1,4 @@
+docs/*.adoc
+docs/*.html
+docs/*.js
+docs/*.css

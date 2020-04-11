@@ -1,0 +1,25 @@
+Source: i3blocks
+Section: x11
+Priority: optional
+Maintainer: Martin Simon <me@martinsimon.me>
+Build-Depends: debhelper (>= 11~), pkg-config
+Standards-Version: 4.3.0
+Homepage: https://github.com/vivien/i3blocks
+Vcs-Git: https://github.com/barnumbirr/i3blocks-debian
+Vcs-Browser: https://github.com/barnumbirr/i3blocks-debian
+
+Package: i3blocks
+Architecture: linux-any kfreebsd-any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: i3-wm
+Enhances: i3-wm
+Description: highly flexible status line for the i3 window manager
+ Status line for the i3 window manager and i3bar that handles clicks, signals
+ and language-agnostic user scripts.
+ .
+ The content of each block (e.g. time, battery status, network state, ...)
+ is the output of a command provided by the user.  Blocks are updated on click,
+ at a given interval of time or on a given signal, also specified by the user.
+ .
+ It aims to respect the i3bar protocol, providing customization such as text
+ alignment, urgency, color, and more.
