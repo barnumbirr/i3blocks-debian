@@ -2,11 +2,11 @@ Source: i3blocks
 Section: x11
 Priority: optional
 Maintainer: Martin Simon <me@martinsimon.me>
-Build-Depends: debhelper (>= 11~), pkg-config
-Standards-Version: 4.3.0
+Build-Depends:
+ debhelper (>= 12~),
+ pkg-config,
+Standards-Version: 4.5.1
 Homepage: https://github.com/vivien/i3blocks
-Vcs-Git: https://github.com/barnumbirr/i3blocks-debian
-Vcs-Browser: https://github.com/barnumbirr/i3blocks-debian
 
 Package: i3blocks
 Architecture: linux-any kfreebsd-any

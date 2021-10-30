@@ -13,7 +13,7 @@ If you have [Docker](https://www.docker.com/) installed locally, just run the fo
 ```bash
 user@hostname$ ./build.sh
 ```
-By default this will build i3blocks 1.5 on Debian Buster.
+By default this will build i3blocks 1.5 on Debian Bullseye.
 
 If you want to customize the build at runtime, use the following:
 
@@ -32,7 +32,7 @@ To publish a new package version to Github, follow these steps:
 ## License
 
 ```
-Copyright (c) 2020, Martin Simon
+Copyright (c) 2020-2021, Martin Simon
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -52,3 +52,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 * [ayosec/polybar-debian](https://github.com/ayosec/polybar-debian)
 * [jpleau-guest/i3blocks](https://salsa.debian.org/jpleau-guest/i3blocks)
+
+## Buy me a coffee?
+
+If you feel like buying me a coffee (or a beer?), donations are welcome:
+
+```
+BTC : bc1qq04jnuqqavpccfptmddqjkg7cuspy3new4sxq9
+DOGE: DRBkryyau5CMxpBzVmrBAjK6dVdMZSBsuS
+ETH : 0x2238A11856428b72E80D70Be8666729497059d95
+LTC : MQwXsBrArLRHQzwQZAjJPNrxGS1uNDDKX6
+```

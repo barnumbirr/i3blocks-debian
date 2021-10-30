@@ -3,11 +3,12 @@ Upstream-Name: i3blocks
 Source: https://github.com/vivien/i3blocks
 
 Files: *
-Copyright: Copyright © 2014-2019 Vivien Didelot <vivien@didelot.org>
+Copyright: 2014-2019 Vivien Didelot <vivien@didelot.org>
 License: GPL-3+
 
 Files: debian/*
-Copyright: Copyright © 2015-2019 Jason Pleau <jason@jpleau.ca>
+Copyright: 2015-2019 Jason Pleau <jason@jpleau.ca>
+ 2020-2021 Martin Simon <me@martinsimon.me>
 License: GPL-3+
 
 License: GPL-3+
